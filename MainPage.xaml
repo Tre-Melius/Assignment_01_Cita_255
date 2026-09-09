@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Assignment_01_Cita_255.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="25,0"
+            Spacing="25">
+            <Label Text="Time converter" FontSize="75" FontFamily="Zenzai Itacha" HorizontalTextAlignment="Center"/>
+            <Label Text="Input the day amount, and then press the button below to convert days to seconds" FontSize="50" FontFamily="Zenzai Itacha" HorizontalTextAlignment="Center"/>
+            <Entry x:Name="dayEntry" Placeholder="Enter the day amount here" FontSize="50" FontFamily="Zenzai Itacha"/>
+            <Button x:Name="convertButton" Text="Convert to seconds" FontSize="50" FontFamily="Pierce Jameson Script" Clicked="OnButtonClicked"/>
+            <Label x:Name="resultLabel" FontSize="50" FontFamily="Zenzai Itacha" HorizontalTextAlignment="Center"/>
+            <Label x:Name="resultLabel2" FontSize="50" FontFamily="Zenzai Itacha" HorizontalTextAlignment="Center"/>
+            <Label x:Name="resultLabel3" FontSize="50" FontFamily="Zenzai Itacha" HorizontalTextAlignment="Center"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
